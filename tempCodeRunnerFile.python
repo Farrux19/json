@@ -1,7 +1,9 @@
-import os; os.system("cls")
+import os
+os.system("cls")
+import json
 
-a = int(input("N:  "))
-
-b = a * a
-
-print(b)
+f = open("dars.txt","x")
+matn = f.dumps(matn)
+for i in matn:
+    if matn > 400:
+        print(matn)
