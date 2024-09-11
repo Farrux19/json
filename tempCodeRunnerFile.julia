@@ -1,0 +1,29 @@
+import os
+os.system("cls")
+
+matn = """
+    Italya
+	Xitoy
+	Fransiya
+	Kanada
+	Turkiya
+"""
+matn1 = """
+    Rim
+	Pekin
+	Parij
+	Ottava
+	Anqara
+"""
+
+f = open("countries.txt", "w")
+f.write(matn)
+f.close()
+
+f1 = open("capitals.txt", "w")
+f1.write(matn1)
+f1.close()
+
+lis = matn + matn1
+
+print(" - ".join(lis))
